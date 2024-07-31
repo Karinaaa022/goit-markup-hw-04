@@ -76,6 +76,7 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-ab.link {
@@ -146,6 +147,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-a:hover,
 .address-a:focus {
@@ -153,16 +155,17 @@ img {
 }
 
 .first-section {
+  max-width: 1440px;
   background: #2e2f42;
   padding: 188px 0;
   background-image: linear-gradient(
-      to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.png);
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
 }
 
 .two {
@@ -202,6 +205,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-one:hover,
 .button-one:focus {
@@ -339,7 +343,8 @@ img {
   fill: #f4f4fd;
 }
 
-.icon-link:hover {
+.icon-link:hover,
+.icon-link:focus {
   background-color: #404bbf;
 }
 
@@ -407,6 +412,7 @@ img {
 
 .section-two-li {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-two-li:hover .korobka {
@@ -511,7 +517,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.footer-link:focus {
   background-color: #31d0aa;
 }
 
